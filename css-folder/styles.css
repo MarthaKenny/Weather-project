@@ -1,0 +1,49 @@
+.wholeBody {
+  background-image: url("images/blue-sky.webp");
+
+  display: block;
+  margin: 20px auto;
+  padding: 200px auto;
+  
+
+  border-radius: 10px;
+  max-width: 500px;
+ border: 1px solid #4D99E9;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight:  400;
+  ;
+  color: rgb(58, 53, 62)
+}
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;20px
+  line-height: 2rem;
+}
+  button{background: rgb(208, 212, 244);}
+#mainIcon {color: rgb(208, 212, 244) ;
+  font-size:40px;
+
+
+}
+button{background: rgb(208, 212, 244);
+  border-radius: 4px;
+  border: 2px solid transparent;
+
+}
+.fa-cloud{
+  color: rgb(208, 212, 244);
+  font-size: 20px;
+}
+.fa-moon{
+  font-size:20px ;
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+  
