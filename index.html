@@ -26,17 +26,22 @@
       src="https://kit.fontawesome.com/367c4bdb46.js"
       crossorigin="anonymous"
     ></script>
+    
   </head>
   <div class="wholeBody">
     <body>
       <div class="container">
-        <br />
-        <form action="">
-          <input type="city" placeholder="Enter a city" />
-          <button>Search</button>
-          <button>Current Location</button>
-        </form>
-
+        
+        
+        <form id="search-form">
+          <div class="button">
+          <input type="text" id="search-button" placeholder="Enter a city" />
+          <input type="submit" value="Search" id="button">
+          <input type="submit" value="Current Location" id="button"></input>
+       
+          </div>
+         </form>
+      
         <br />
         <h1>LAGOS</h1>
         <h2>Saturday, 20:00</h2>
@@ -44,7 +49,9 @@
           <div class="col-6">
             <b
               ><h1>
-                <i class="fa-solid fa-cloud-sun-rain" id="mainIcon"></i>27°C/F
+                <i class="fa-solid fa-cloud-sun-rain" id="mainIcon">
+
+                </i><span class="degrees"><Span id="actualtemp">26</Span></span><span class="units"><a id="degree" href="#">°C </a> |<a id=fahrenheit  href="#">°F</a></span>
               </h1></b
             >
 
@@ -121,9 +128,7 @@
           </div>
         </div>
       </div>
-      <form action="#">
-        in
-      </form>
+      <script src="index.js"></script>
     </body>
   </div>
 </html>
