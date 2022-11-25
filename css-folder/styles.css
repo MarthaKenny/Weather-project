@@ -72,8 +72,8 @@ a{
 
 .open{
   
-  
+  position: fixed;
   margin-top: 0;
-  margin-left: 125px;
+  margin-left: 510px;
   
 }
