@@ -66,3 +66,6 @@ a{
   
 
 }
+#search-button{
+  text-transform: capitalize;
+}
