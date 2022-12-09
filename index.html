@@ -43,20 +43,22 @@
           </div>
          </form>
       
-        <br />
+      
         <h1></h1>
-        <h2></h2>
-        <div class="row">
-          <div class="col-6">
             <b
               ><h1>
                 <i class="fa-solid fa-cloud-sun-rain" id="mainIcon">
 
-                </i><span class="degrees"><Span id="actualtemp"></Span></span><span class="units"><a id="degree" href="#">°C </a> |<a id=fahrenheit  href="#">°F</a></span>
-              </h1></b
-            >
+          </i><span class="degrees"><Span id="actualtemp"></Span></span><span class="units"><a id="degree" href="#">°C </a> |<a id=fahrenheit  href="#">°F</a></span>
+        </h1></b
+      >
+      <div id="description"></div>
+       
+        <div class="row">
+          <div class="col-6">
+            <h2 class="time"></h2>
 
-           <div id="description"></div>
+          
           </div>
           <div class="col-2">
            <span id="humidity"></span>% <i class="fa-solid fa-droplet"></i> <br />Humidity
@@ -74,8 +76,9 @@
         </div>
 
         <hr />
-        <div class="row">
-          <div class="col">
+        <div class="middle-section">
+        <div  class="row">
+          <div  id="first" class="col">
             22:00
             <br />
             <i class="fa-regular fa-moon"> </i>
@@ -100,6 +103,7 @@
             <br />25°C
           </div>
         </div>
+      </div>
         <hr />
         <div class="row">
           <div class="col-4">
@@ -119,7 +123,7 @@
               <li><i class="fa-solid fa-cloud"></i></li>
             </ul>
           </div>
-          <div class="col-sm-4">
+          <div  class="col-sm-4">
             <ul style="list-style-type: none">
               <li>22°/35°</li>
               <li>22°/35°</li>
